@@ -1,0 +1,68 @@
+.accountWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-column-gap: 10rem;
+    width: 90%;
+    margin: 50px auto;
+    font-family: sans-serif;
+    color: var(--lightblack-text-color);
+}
+.accountWrapper hr {
+    /* width: 25rem; */
+    opacity: .3;
+    margin-bottom: 1rem;
+}
+.accountWrapper button {
+    width: 12rem;
+    background-color: var(--focus-text-color);
+    font-size: var(--medium-font-size);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    color: var(--primary-text-color);
+}
+.accountWrwpper__leftGrid {
+    width: 90%;
+    margin-top: 100px;
+}
+.accountWrapper__leftGrid_title {
+    margin-bottom: 50px;
+    margin-left: -15px;
+    font-size: var(--pro-medium-font-size)
+  }
+  .accountWrapper__leftGrid_subtitle {
+      font-size: var(1.4rem);
+  }
+  .accountWrapper__leftGrid_text {
+      font-size: var(--medium-font-size);
+  }
+  .accountWrapper__form {
+      font-size: var(--medium-font-size);
+      color: var(--secondary-text-color);
+      margin: 1rem;
+  }
+  .accountWrapper__form label, input {
+      margin-bottom: 15px;
+      width: 20rem;
+      height: 2rem;
+  }
+  /*End of grid1*/
+
+.accountWrwpper__rightGrid {
+    width: 90%;
+    margin: 195px auto auto auto;
+}
+.accountWrwpper__rightGrid_subtitle {
+
+    margin-bottom: 15px;
+}
+.accountWrwpper__rightGrid_text {
+    margin-top: 2.3rem;
+    margin-bottom: 2rem;
+    font-size: var(--medium-font-size);
+    color: var(--secondary-text-color);
+}
+
+
+

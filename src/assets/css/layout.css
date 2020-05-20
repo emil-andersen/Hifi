@@ -1,0 +1,17 @@
+.bottom{
+    background-color: #999966;
+    height: 5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .5em;
+    justify-items: center;
+}
+.blackBackground{
+    background-color: #000;
+}

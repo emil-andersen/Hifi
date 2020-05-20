@@ -1,0 +1,17 @@
+.shopBaggrund{
+    background-color: black;
+}
+
+.shopWrapper{
+    background: white;
+    width: 78%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

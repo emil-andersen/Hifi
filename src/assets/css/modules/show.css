@@ -1,0 +1,7 @@
+.show__label{
+    text-transform: uppercase;
+    margin-right: 0.2rem;
+}
+.show__select{
+    font-size: var(--pro-small-font-size);
+}

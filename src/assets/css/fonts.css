@@ -1,0 +1,24 @@
+@font-face{
+    font-family: MuseoSansRounded100;
+    src: url(/assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded100.woff);
+}
+@font-face{
+    font-family: MuseoSansRounded1000;
+    src: url(/assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded1000.woff);
+}
+@font-face{
+    font-family: MuseoSansRounded300;
+    src: url(/assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded300.woff);
+}
+@font-face{
+    font-family: MuseoSansRounded500;
+    src: url(/assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded500.woff);
+}
+@font-face{
+    font-family: MuseoSansRounded700;
+    src: url(/assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded700.woff);
+}
+@font-face{
+    font-family: MuseoSansRounded900;
+    src: url(/assets/fonts/museo-sans-rounded-webfont/MuseoSansRounded900.woff);
+}

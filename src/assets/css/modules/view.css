@@ -1,0 +1,22 @@
+.view{
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+}
+.view__box{
+    font-size: var(--mini-font-size);
+    color: var(--filter-deselect-color);
+    margin-top: auto;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+.view__box_active{
+    color: var(--focus-text-color);
+}
+.view__bars{
+    font-size: var(--mini-font-size);
+    color: var(--filter-deselect-color);
+}
+.view__bars_active{
+    color: var(--focus-text-color);
+}

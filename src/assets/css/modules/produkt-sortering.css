@@ -1,0 +1,23 @@
+.produkt-sortering{
+    display: flex;
+    font-size: var(--pro-small-font-size);
+    font-family: MuseoSansRounded300;
+    background-color: var(--filter-background-color);
+    padding: 0.5rem 0.5rem 1rem;
+    align-items: flex-start;
+    height: 3rem;
+    width: 70em;
+}
+.produkt-sortering__sort{
+    margin-right: 0.8rem;
+}
+.produkt-sortering__view{
+    align-self: flex-end;
+    margin-right: auto;
+}
+.produkt-sortering__count{
+    margin-left: auto;
+}
+.produkt-sortering__show{
+    margin-left: 1rem;
+}

@@ -1,0 +1,25 @@
+:root{
+    /*--FONT SIZES--*/
+    --small-font-size: 0.5rem;
+    --pro-small-font-size: 0.6rem;
+    --semi-mini-font-size: 0.7rem;
+    --mini-font-size: 0.8rem;
+    --medium-font-size: 1rem;
+    --pro-medium-font-size: 2.5rem;
+    --semi-large-font-size: 7rem;
+    --icon-font-size: 8rem;
+    --icon-font-size-alt: 7.5rem;
+
+    /*--COLORS--*/
+    --primary-text-color: #fff;
+    --secondary-text-color: #000;
+    --focus-text-color: #a39161;
+    --focus-text-color-darker: #a3916131;
+    --filter-background-color: rgb(225, 226, 228);/*Moh-05.03*/
+    --filter-deselect-color: #BBB;
+    --filter-focus-color: #666;
+
+    /*Produkt kort*/
+    --pri-color:#A39161;
+    --old-price:  #A0A0A1;
+}

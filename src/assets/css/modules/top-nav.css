@@ -1,0 +1,31 @@
+@font-face{
+    font-family: MuseoSansRounded700;
+    src: url(../../fonts/museo-sans-rounded-webfont/MuseoSansRounded700.woff);
+}
+.top-nav{
+    border-top: solid 1.5px var(--focus-text-color-darker);
+    margin: 0;
+    font-family: MuseoSansRounded700;
+    width: 100%;
+    background-color: #000;
+}
+.top-nav__nav-list{
+    width: 25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 1.3rem 0;
+}
+.nav-list__item{
+    font-size: var(--semi-mini-font-size);
+}
+.nav-list__link{
+    color: var(--primary-text-color);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-list__link_active{
+    color: var(--focus-text-color);
+}

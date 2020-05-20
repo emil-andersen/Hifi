@@ -1,0 +1,46 @@
+.product-slider{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 15rem 20rem;
+    padding: 1% 0;
+    font-family: MuseoSansRounded300;
+    color: var(--focus-text-color);
+    background-color: white;
+}
+.product-slider__product{
+    display: inline-flex;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+.product-slider__img{
+   object-fit: contain;
+}
+.product-slider__name{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: var(--pro-medium-font-size);
+    text-transform: uppercase;
+    margin: 0;
+    justify-self: center;
+    align-self: flex-end;
+    padding-bottom: 2rem;
+}
+.product-slider__arrow-left{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    font-size: var(--semi-large-font-size);
+    align-self: center;
+    justify-self: left;
+    margin-left: 5rem;
+}
+.product-slider__arrow-right{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    font-size: var(--semi-large-font-size);
+    align-self: center;
+    justify-self: right;
+    margin-right: 5rem;
+}
+.product-slider__arrow-left:hover, .product-slider__arrow-right:hover{
+    cursor: pointer;
+}
