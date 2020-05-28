@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/emil-andersen/hifi/issues"
   },
-  "homepage": "https://github.com/emil-andersen/hifi#readme"
+  "homepage": "https://github.com/emil-andersen/hifi#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }

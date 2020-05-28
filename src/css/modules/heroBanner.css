@@ -1,0 +1,53 @@
+.baggrundsbillede{
+    background-image: url(/assets/images/heroBanner/COLOURBOX2294799.jpg);
+    background-repeat: no-repeat;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 36em;
+}
+
+.hero__logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 10em;
+    height: 10em;
+    border: 2px solid white;
+}
+
+.logo__text{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    width: 4em;
+    padding-left: .5em;
+}
+
+.hero__logo__underline{
+    color: white;
+    text-align: justify;
+    font-size: 0.8em;
+    letter-spacing: .2em;
+    padding-top: .8em;
+}
+.banner{
+    display: flex;
+    height: 17em;
+    background-image: url(/assets/images/heroBanner/COLOURBOX8539918.jpg);
+    background-position-x: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__text{
+    height: auto;
+    color: white;
+    font-size: 2.8em;
+    text-align: center;
+    margin: 0 2em;
+}
